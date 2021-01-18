@@ -1,0 +1,12 @@
+//Declarar uma variavel
+
+edi edimilson = 22 % 3
+print edimilson
+
+edi batata = 7 
+
+edi laranja = 3
+
+edi abobrinha = batata % laranja
+
+print abobrinha

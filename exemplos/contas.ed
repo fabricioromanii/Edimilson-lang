@@ -1,0 +1,21 @@
+//Como realizar as operações no edimilson
+
+//SOMA
+edi x = 10 + 30
+print x
+
+//SUBTRAÇÃO
+edi y = 10 - 30
+print y
+
+//MULTIPLICAÇÃO
+edi z = 10 * 30
+print z
+
+//DIVISÃO
+edi d = 10 / 30
+print d
+
+//RESTO
+edi r = 10 % 30
+print r
