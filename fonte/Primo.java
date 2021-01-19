@@ -22,7 +22,7 @@ public class Primo  {
         if (x == 1){
             return resNeg;
         }
-        for(long i=2;i<=x/2;i++){ 
+        for(long i=2; i <= x/2; i++){ 
             if((x%i)==0) {
                 return resNeg; 
             }
