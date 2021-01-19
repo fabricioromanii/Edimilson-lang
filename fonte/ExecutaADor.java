@@ -59,6 +59,10 @@ public class ExecutaADor {
                     System.out.println("A variável "+nomeVariavel+ " não foi definida");
                 }
                 teclado.close();
+            }else if("primo".equals(tokens[0])){
+                int x = Integer.parseInt(tokens[1]);              
+                String res = Primo.TestaPrimo(x);
+                System.out.println(res);
             }
         }
     }
