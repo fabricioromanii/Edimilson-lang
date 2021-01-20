@@ -12,9 +12,8 @@ A linguagem Edimilson também possui sua extensão própria, logo, os arquivos q
 ● Atribuição de valor a variável;
 ● Expressões com no mínimo dois operandos, ex.: a + b;
 ● Operações de adição, subtração, divisão, multiplicação e resto (módulo);
-● Laço;
 ● Comando de saída, ex.: mostrar algo na tela;
-● Controlador de fluxo, ex.: if;
+● Mostrar se o número é primo;
 
 ## Declaração de variável:
 Para declararmos variáveis seguiremos a seguinte ordem: *var*(que representa o “tipo” da variável sendo que o mesmo não é fixo e pode assumir diferentes padrões como *double* ou *int*), *NomeDaVariavel* = (Atribuição) *ValorVariável*. É importante destacar que a variável deve ser inicializada com algum valor, mesmo que esse seja 0 e que deve obrigatoriamente ter os espaços entre cada comando além de que para declara valores com casas decimais, o separador é "." e não ",". 
@@ -39,6 +38,9 @@ input x	               |    O que a pessoa digitar para o input
 
 ## Realizando operações matemáticas:
 Para realizar as operações é necessário definir uma varíavel e atribuir as operações para ela, como por exemplo: `edi soma = 2 + 2`, sendo possível também fazer operações que envolvam somente a variavel, por exemplo:`edi x = 2`, `edi y= 1`, `edi soma = x + y`.
+
+## Testando se o número é primo:
+Para testar se um número é primo é necessário colocar a tag "primo" na frente do número, por exemplo:`primo 5` -> retornará `eh primo`.
 
 ## Limitações e regras adicionais para uso da linguagem
 É importante frisar que para essas operações funcionarem de forma correta, é necessário que **hajam espaços depois de cada sinal de atribuição, operação matemática, número ou nome de varável**.
