@@ -26,5 +26,4 @@ public class Primo  {
         return resPos;
 
     }
-
 }

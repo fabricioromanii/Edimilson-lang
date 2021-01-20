@@ -68,6 +68,7 @@ public class ExecutaADor {
                 int x = Integer.parseInt(tokens[1]);              
                 String res = Fluxo.TestaIf(x);
                 System.out.println(res);
+
             }
         }
     }
